@@ -1,0 +1,32 @@
+<h1>Student Data</h1>
+
+<!-- <ul>
+    <li *ngFor="let c of cars">
+        {{c}}
+    </li>
+</ul>
+
+<h2>{{val}}</h2> -->
+
+
+<table class="table table-bordered table-hover text-center">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Marks</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr  *ngFor="let s of students">
+            <td>{{s.id}}</td>
+            <td>{{s.name | myGender:s.gender}}</td>
+            <td>{{s.city}}</td>
+            <td>{{s.marks}}</td>
+            <td>{{s.gender}}</td>
+        </tr>
+    </tbody>
+</table>

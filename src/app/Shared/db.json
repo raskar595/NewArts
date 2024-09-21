@@ -1,0 +1,16 @@
+{
+    "User":[
+        {
+            "id":101,
+            "name":"Suraj Raskar",
+            "city":"Pune",
+            "email":"raskarsuraj984@gmail.com"
+        },
+        {
+            "id":102,
+            "name":"Dhiraj Raskar",
+            "city":"Nira",
+            "email":"raskardhiraj143@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "Student":[
+        {
+            "id":101,
+            "name":"Abhishek Shelar",
+            "city":"Nashik",
+            "marks":89
+        },
+        {
+            "id":102,
+            "name":"Krishna Fasle",
+            "city":"Nashik",
+            "marks":99
+        }
+    ]
+}
