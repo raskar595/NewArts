@@ -9,6 +9,7 @@ import { ExamsComponent } from './exams/exams.component';
 import { LoginComponent } from './login/login.component';
 import { Task1Component } from './task1/task1.component';
 import { MypipeComponent } from './mypipe/mypipe.component';
+import { StudentDataComponent } from './student-data/student-data.component';
 
 const routes: Routes = [
   {path:"",component:LoginComponent},
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:"toggle",component:ToggleComponent},
   {path:"exams",component:ExamsComponent},
   {path:"task1",component:Task1Component},
-  {path:"mypipe",component:MypipeComponent}
+  {path:"mypipe",component:MypipeComponent},
+  {path:"student-data",component:StudentDataComponent}
 ];
 
 @NgModule({

@@ -16,6 +16,8 @@ import { SquarePipe } from './Pipes/square.pipe';
 import { ArcPipe } from './Pipes/arc.pipe';
 import { MypipeComponent } from './mypipe/mypipe.component';
 import { MyGenderPipe } from './Pipes/my-gender.pipe';
+import { StudentDataComponent } from './student-data/student-data.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,12 +33,14 @@ import { MyGenderPipe } from './Pipes/my-gender.pipe';
     SquarePipe,
     ArcPipe,
     MypipeComponent,
-    MyGenderPipe
+    MyGenderPipe,
+    StudentDataComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

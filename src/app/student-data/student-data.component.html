@@ -1,0 +1,23 @@
+<h1>Students Records</h1>
+
+<table class="table table-bordered table-hover text-center">
+    <thead>
+        <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Marks</th>
+        <th>Email</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let s of studArray">
+            <td>{{s.id}}</td>
+            <td>{{s.name}}</td>
+            <td>{{s.city}}</td>
+            <td>{{s.marks}}</td>
+            <td>{{s.email}}</td>
+        </tr>
+    </tbody>
+</table>

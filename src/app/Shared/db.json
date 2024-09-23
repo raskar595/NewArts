@@ -1,16 +1,26 @@
 {
-    "User":[
+    "Student":[
         {
             "id":101,
             "name":"Suraj Raskar",
             "city":"Pune",
+            "marks":77,
             "email":"raskarsuraj984@gmail.com"
         },
         {
             "id":102,
             "name":"Dhiraj Raskar",
-            "city":"Nira",
-            "email":"raskardhiraj143@gmail.com"
+            "city":"Warje",
+            "marks":97,
+            "email":"raskardhiraj889@gmail.com"
+        }
+    ],
+
+    "User":[
+        {
+            "id":111,
+            "name":"Yash Lonkar",
+            "email":"yash.lonkar@gmail.com"
         }
     ]
 }
